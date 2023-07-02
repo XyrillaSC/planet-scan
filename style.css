@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+main {
+    min-height: 80vh;
+}
+#window-frame {
+    min-height: 80vh;
+    border: 40px solid grey;
+    background-color: black;
+}
+#hud-bar {
+    border: 20px solid grey;
+    min-height: 20vh;
+    display: flex;
+}
+#action-bar {
+    display: flex;
+    border: 5px solid;
+}
+.action-btn {
+    border: 5px solid;
+    border-radius: 10%;
+    background-color: darkgrey;
+}
